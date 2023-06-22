@@ -4,7 +4,7 @@ import "../index.css";
 
 import HeaderSimple from "../components/HeaderSimple";
 import Headline from "../components/Headline";
-import HStack from "../components/HStack";
+import HStack from "../components/HorizontalStack";
 import Item from "../components/Item";
 import ItemsGrid from "../components/ItemsGrid";
 import Label from "../components/Label";
@@ -16,7 +16,7 @@ import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
 import ProductTable from "../components/ProductTable";
 import Reviews from "../components/Reviews";
-import VStack from "../components/VStack";
+import VStack from "../components/VerticalStack"
 import "../index.css";
 
 export const config: TemplateConfig = {

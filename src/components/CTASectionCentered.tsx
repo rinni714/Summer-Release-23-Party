@@ -6,11 +6,16 @@ export interface CTASectionCenteredProps {
   cta1Color?: string;
   cta2Label?: string;
   cta2Color?: string;
+  backgroundColor?: string;
 }
 
 const CTASectionCentered = (props: CTASectionCenteredProps) => {
-  const { heading, paragraph, cta1Label, cta1Color, cta2Label, cta2Color } =
+  const { heading, paragraph, cta1Label, cta1Color, cta2Label, cta2Color, backgroundColor } =
     props;
+
+  const backgroundStyling = {
+    backgroundColor: `${backgroundColor}`,
+  };
 
   const cta1Styling = {
     backgroundColor: `${cta1Color}`,
@@ -22,7 +27,7 @@ const CTASectionCentered = (props: CTASectionCenteredProps) => {
 
   return (
     <>
-      <div className="bg-white">
+      <div style={backgroundStyling}>
         <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900">
