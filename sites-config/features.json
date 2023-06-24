@@ -32,17 +32,14 @@
         ]
       },
       "fields": [
-        "name",
-        "slug",
         "logo",
-        "c_featuredProducts.name",
-        "c_featuredProducts.c_subtitle",
-        "c_featuredProducts.logo",
-        "c_tagline",
-        "c_mainCTA",
         "c_secondaryCTA",
-        "c_relatedFAQs.answer",
-        "c_relatedFAQs.question"
+        "c_mainCTA",
+        "c_tagline",
+        "name",
+        "c_featuredProducts",
+        "c_relatedFAQs",
+        "slug"
       ]
     },
     {
