@@ -1,6 +1,14 @@
 {
   "features": [
     {
+      "name": "home",
+      "streamId": "home",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "product",
       "streamId": "skis",
       "templateType": "JS",
@@ -10,6 +18,33 @@
     }
   ],
   "streams": [
+    {
+      "$id": "home",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_page"
+        ]
+      },
+      "fields": [
+        "name",
+        "slug",
+        "logo",
+        "c_featuredProducts.name",
+        "c_featuredProducts.c_subtitle",
+        "c_featuredProducts.logo",
+        "c_tagline",
+        "c_mainCTA",
+        "c_secondaryCTA",
+        "c_relatedFAQs.answer",
+        "c_relatedFAQs.question"
+      ]
+    },
     {
       "$id": "skis",
       "filter": {
@@ -23,13 +58,7 @@
         ],
         "primary": false
       },
-      "fields": [
-        "name",
-        "c_price",
-        "description",
-        "photoGallery",
-        "slug"
-      ]
+      "fields": []
     }
   ]
 }

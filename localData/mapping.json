@@ -1,5 +1,11 @@
 {
+	"home": [
+		"home__en__37f13e3e1ffd1fff1382a8348251fd35.json"
+	],
 	"product": [
-		"skis__en__408b6cfef8e6aafd9275e0cdc36f7c44.json"
+		"skis__en__dcb1febac4fd87df0c47cde753e80415.json",
+		"skis__en__99fde72847f0c76a3c67e089277b18ba.json",
+		"skis__en__03f6cb3b2a678cd6e565aff525fb94cc.json",
+		"skis__en__2fb704ad0380b35f7ba84a85c1be8459.json"
 	]
 }

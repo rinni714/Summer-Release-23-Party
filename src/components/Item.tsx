@@ -1,17 +1,19 @@
+
 export interface ItemProps {
   name?: string;
   image?: string;
   price?: number;
+  subtitle?: string;
 }
 
 export const initialProps: ItemProps = {
   name: "Product Name",
-  image:
-    "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
   price: 0,
+  subtitle: "Product Subtitle",
 };
 
-const Item = ({ name, image, price }: ItemProps) => {
+const Item = ({ name, image, price, subtitle }: ItemProps) => {
+  console.log(subtitle)
   return (
     <li className="relative flex flex-col p-4">
       <div className="flex-1">
@@ -26,7 +28,7 @@ const Item = ({ name, image, price }: ItemProps) => {
             {name}
           </a>
         </h3>
-        <p className="mt-1 text-sm text-gray-500">{`$${price}`}</p>
+        <p className="mt-1 text-sm text-gray-500">{subtitle}</p>
       </div>
     </li>
   );

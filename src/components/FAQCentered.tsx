@@ -2,33 +2,22 @@ import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 export interface FAQCenteredProps {
-  heading?: string;
-  backgroundColor?: string;
+  heading: string;
+  backgroundColor: string;
+  faqs: Array<faq>;
 }
 
-const FAQCentered = (props: FAQCenteredProps) => {
-  const { heading, backgroundColor } = props;
+export interface faq {
+  question: string;
+  answer: string;
+}
+
+
+const FAQCentered = ({ faqs, heading, backgroundColor }: FAQCenteredProps) => {
 
   const bgStyling = {
     backgroundColor: `${backgroundColor}`,
   };
-
-  const faqs = [
-    {
-      question: "What's the best thing about Switzerland?",
-      answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-      question: "Will my Yext Pages be SEO-performant?",
-      answer:
-        "Yes, they will be. That is because they are hand-crafted by a team of web dev professionals based in Meatpacking district.",
-    },
-    {
-      question: "Is the Yext Knowledge Graph filled with knowledge?",
-      answer: "Yes, the Yext Knowledge Graph is chock-full of knowledge.",
-    },
-  ];
 
   return (
     <>
@@ -39,7 +28,7 @@ const FAQCentered = (props: FAQCenteredProps) => {
               {heading}
             </h2>
             <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
-              {faqs.map((faq) => (
+              {faqs?.map((faq) => (
                 <Disclosure as="div" key={faq.question} className="pt-6">
                   {({ open }) => (
                     <>

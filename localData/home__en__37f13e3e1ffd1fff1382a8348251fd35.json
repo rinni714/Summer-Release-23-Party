@@ -1,0 +1,97 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "home",
+		"streamId": "home",
+		"templateType": "JS"
+	},
+	"businessId": 3217942,
+	"c_featuredProducts": [
+		{
+			"c_subtitle": "SEO Optimized Websites built on Yext Content",
+			"logo": {
+				"image": {
+					"height": 100,
+					"url": "https://a.mktgcdn.com/p-sandbox/cwjfIMKOKdMlT_pTfu3ru4d5LFSW-LyI7iUOkHoJEQI/100x100.png",
+					"width": 100
+				}
+			},
+			"name": "Pages"
+		},
+		{
+			"c_subtitle": "AI-First Search Experiences for Enterprise",
+			"logo": {
+				"image": {
+					"height": 100,
+					"url": "https://a.mktgcdn.com/p-sandbox/3bRINBdbZ2qyHV56y_4bCWm8eD-kKUdK-i9IXaK4Ji8/100x100.png",
+					"width": 100
+				}
+			},
+			"name": "Search"
+		},
+		{
+			"c_subtitle": "Large Language Models with Yext Content = Informed and Happy Users",
+			"logo": {
+				"image": {
+					"height": 179,
+					"url": "https://a.mktgcdn.com/p-sandbox/FBeL2ZsD2vY6-zuRVBsH7K-BGS9EqRnKFbYROoywZ9k/179x179.png",
+					"width": 179
+				}
+			},
+			"name": "Chat"
+		},
+		{
+			"c_subtitle": "Third-Party Publishing with the World Leader in Business Listings",
+			"logo": {
+				"image": {
+					"height": 100,
+					"url": "https://a.mktgcdn.com/p-sandbox/WoAqnRBVRH9Yi1Q-fHBz5lAGWzGzAOi9r4HiC-NINhE/100x100.png",
+					"width": 100
+				}
+			},
+			"name": "Listings"
+		}
+	],
+	"c_mainCTA": "Learn More",
+	"c_relatedFAQs": [
+		{
+			"answer": "Yes.",
+			"question": "Is Yext the world's greatest software company."
+		},
+		{
+			"answer": "Why Yext, of course!",
+			"question": "Who should you choose to build your Digital Experiences?"
+		},
+		{
+			"answer": "Yes, they will be. That is because they are hand\\-crafted by a team of web dev professionals based in Meatpacking district.",
+			"question": "Will my Yext Pages be SEO-performant?"
+		}
+	],
+	"c_secondaryCTA": "Get a Demo",
+	"c_tagline": "Build AI-Powered Digital Experiences with Ease",
+	"id": "8171069797393738617",
+	"key": "0:home:knowledgeGraph:42026167:en",
+	"locale": "en",
+	"logo": {
+		"image": {
+			"height": 300,
+			"url": "https://a.mktgcdn.com/p-sandbox/mEDIaOmHOWiGuL8RjmPxUknXpB3LPzIFSwVbXP7QW60/300x300.png",
+			"width": 300
+		}
+	},
+	"meta": {
+		"entityType": {
+			"id": "ce_page",
+			"uid": 119079
+		},
+		"locale": "en"
+	},
+	"name": "Yext",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "index.html",
+	"uid": 42026167
+}

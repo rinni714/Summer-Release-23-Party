@@ -1,0 +1,25 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "product",
+		"streamId": "skis",
+		"templateType": "JS"
+	},
+	"businessId": 3217942,
+	"id": "3324443886918294066",
+	"key": "0:product:knowledgeGraph:42056942:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_product",
+			"uid": 119074
+		},
+		"locale": "en"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 42056942
+}

@@ -3,12 +3,12 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { HexColor } from "@yext/studio";
 
-export interface HeaderSimpleProps {
+export interface HeaderProps {
   logo?: string;
   backgroundColor?: HexColor;
 }
 
-const HeaderSimple = (props: HeaderSimpleProps) => {
+const Header = (props: HeaderProps) => {
   const { logo, backgroundColor } = props;
 
   // const bgStyling = {
@@ -224,4 +224,4 @@ const HeaderSimple = (props: HeaderSimpleProps) => {
   );
 };
 
-export default HeaderSimple;
+export default Header;

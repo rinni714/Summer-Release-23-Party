@@ -2,7 +2,7 @@ import { GetPath, TemplateConfig, TemplateProps } from "@yext/pages";
 import GridContainer from "../components/GridContainer";
 import "../index.css";
 
-import HeaderSimple from "../components/HeaderSimple";
+import HeaderSimple from "../components/Header";
 import Headline from "../components/Headline";
 import HStack from "../components/HorizontalStack";
 import Item from "../components/Item";
@@ -24,7 +24,7 @@ export const config: TemplateConfig = {
     $id: "skis",
     filter: { entityTypes: ["ce_product"] },
     localization: { locales: ["en"], primary: false },
-    fields: ["name", "c_price", "description", "photoGallery", "slug"],
+    fields: [],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
@@ -38,7 +38,7 @@ export default function Product({ document }: TemplateProps) {
         <PageLayout backgroundColor="#FFFFFF">
           <HeaderSimple
             backgroundColor="#BAD8FD"
-            logo=" https://a.mktgcdn.com/p/R9FjcYjRNA5dAespqgHFLMvu2m18-E5Apnb3KON0oJY/300x300.png"
+            logo="https://a.mktgcdn.com/p/R9FjcYjRNA5dAespqgHFLMvu2m18-E5Apnb3KON0oJY/300x300.png"
           />
           <CenteredContainer>
             <GridContainer>
