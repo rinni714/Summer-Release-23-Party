@@ -8,7 +8,10 @@ import Header from "../components/Header";
 import ItemList from "../components/ItemList";
 import PageLayout from "../components/PageLayout";
 import "../index.css";
+import SimpleGrid from "../components/SimpleGrid";
 import GridBlock from "../components/GridBlock";
+import GridContainer from "../components/GridContainer";
+import AddressComponent from "../components/Address";
 
 export const config: TemplateConfig = {
   stream: {
@@ -32,6 +35,13 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
 };
 
 export default function Product({ document }: TemplateProps) {
+  const address = {
+    line1: '123 Main Street',
+    city: 'New York',
+    region: 'NY',
+    postalCode: '10001',
+    countryCode: 'US',
+  }
   const {
     c_featuredProducts,
     logo,
@@ -46,15 +56,13 @@ export default function Product({ document }: TemplateProps) {
       <CenteredContainer>
         <Header backgroundColor="#000000" logo={`${document.logo.image.url}`} />
         <CTASectionCentered
-          cta2Color={``}
-          backgroundColor={``}
-          cta2Label={`${document.c_secondaryCTA}`}
-          cta1Color={`black`}
-          {/* cta1Label={`${document.c_mainCTA}`} */ }
+          MainCTA={c_mainCTA}
+          SecondaryCTA={c_secondaryCTA}
+          showSecondaryCTA={true}
           paragraph={`${document.c_tagline}`}
           heading={`${document.name}`}
         />
-        <GridBlock content={``} backgroundColor={`bg-transparent`}></GridBlock>
+        <GridContainer> <AddressComponent address={address}></AddressComponent> </GridContainer>
         <ItemList
           title={`Featured Products`}
           backgroundColor={``}

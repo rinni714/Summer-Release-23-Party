@@ -1,0 +1,60 @@
+
+export interface GridBlockProps {
+    content: React.Component | string;
+    backgroundColor: "bg-transparent"
+    | "bg-black"
+    | "bg-white"
+    | "bg-gray-100"
+    | "bg-gray-200"
+    | "bg-gray-300"
+    | "bg-gray-400"
+    | "bg-gray-500"
+    | "bg-gray-600"
+    | "bg-gray-700"
+    | "bg-gray-800"
+    | "bg-gray-900"
+    | "bg-red-100"
+    | "bg-red-200"
+    | "bg-red-300"
+    | "bg-red-400"
+    | "bg-red-500"
+    | "bg-red-600"
+    | "bg-red-700"
+    | "bg-red-800"
+    | "bg-red-900"
+    | "bg-orange-100"
+    | "bg-orange-200"
+    | "bg-orange-300"
+    | "bg-orange-400"
+    | "bg-orange-500"
+    | "bg-orange-600"
+    | "bg-orange-700"
+    | "bg-orange-800"
+    | "bg-orange-900"
+    | "bg-yellow-100"
+    | "bg-yellow-200"
+    | "bg-yellow-300"
+    | "bg-yellow-400"
+    | "bg-yellow-500"
+    | "bg-yellow-600"
+    | "bg-yellow-700"
+    | "bg-yellow-800"
+    | "bg-yellow-900"
+    | "bg-green-100"
+    | "bg-green-200"
+    | "bg-green-300"
+    | "bg-green-400"
+    | "bg-green-500"
+    | "bg-green-600"
+    | "bg-green-700"
+    | "bg-green-800"
+    | "bg-green-900"
+    | "bg-teal-100"
+}
+
+const GridBlock = ({ content, backgroundColor }: GridBlockProps) => {
+    return (
+        <div className={`${backgroundColor}`} >{content}</div >
+    )
+}
+export default GridBlock;
