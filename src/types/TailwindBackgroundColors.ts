@@ -1,5 +1,5 @@
-export interface TailwindBackgroundColors {
-    | "bg-transparent"
+export const TailwindBackgroundColors =
+  | "bg-transparent"
     | "bg-black"
     | "bg-white"
     | "bg-gray-100"
@@ -92,4 +92,3 @@ export interface TailwindBackgroundColors {
     | "bg-pink-700"
     | "bg-pink-800"
     | "bg-pink-900";
-}

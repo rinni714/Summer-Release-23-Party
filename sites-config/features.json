@@ -1,4 +1,42 @@
 {
-  "features": [],
-  "streams": []
+  "features": [
+    {
+      "name": "home",
+      "streamId": "home",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "home",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_page"
+        ]
+      },
+      "fields": [
+        "logo",
+        "c_secondaryCTA",
+        "c_mainCTA",
+        "c_cTAFull",
+        "c_tagline",
+        "name",
+        "c_featuredProducts.name",
+        "c_featuredProducts.logo",
+        "c_featuredProducts.c_subtitle",
+        "c_relatedFAQs.question",
+        "c_relatedFAQs.answer",
+        "slug"
+      ]
+    }
+  ]
 }

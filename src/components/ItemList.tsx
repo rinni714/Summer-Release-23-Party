@@ -18,7 +18,7 @@ const ItemList = ({ title, backgroundColor, items }: ItemListProps) => {
         className="grid grid-cols-4 gap-x-8 border-y border-gray-400"
       >
         {items?.map(({ name, logo, c_subtitle }) => (
-          <Item name={name} image={logo.image.url} subtitle={c_subtitle}></Item>
+          <Item name={name} image={logo?.image?.url} subtitle={c_subtitle}></Item>
         ))}
       </ul>
     </div>

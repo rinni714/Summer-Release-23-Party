@@ -8,6 +8,10 @@
 		"templateType": "JS"
 	},
 	"businessId": 3217942,
+	"c_cTAFull": {
+		"cTALabel": "Learn More",
+		"cTALink": "yext.com"
+	},
 	"c_featuredProducts": [
 		{
 			"c_subtitle": "SEO Optimized Websites built on Yext Content",
@@ -58,15 +62,15 @@
 	"c_relatedFAQs": [
 		{
 			"answer": "Yes.",
-			"question": "Is Yext the world's greatest software company."
+			"question": "Is Yext the world's greatest software company?"
 		},
 		{
 			"answer": "Why Yext, of course!",
-			"question": "Who should you choose to build your Digital Experiences?"
+			"question": "Who should build your digital experiences?"
 		},
 		{
-			"answer": "Yes, they will be. That is because they are hand\\-crafted by a team of web dev professionals based in Meatpacking district.",
-			"question": "Will my Yext Pages be SEO-performant?"
+			"answer": "Yes, indeed!",
+			"question": "Will my Yext Pages be performant?"
 		}
 	],
 	"c_secondaryCTA": "Get a Demo",

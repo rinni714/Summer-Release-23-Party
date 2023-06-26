@@ -8,7 +8,6 @@ import Header from "../components/Header";
 import ItemList from "../components/ItemList";
 import PageLayout from "../components/PageLayout";
 import "../index.css";
-import GridBlock from "../components/GridBlock";
 
 export const config: TemplateConfig = {
   stream: {
@@ -19,10 +18,14 @@ export const config: TemplateConfig = {
       "logo",
       "c_secondaryCTA",
       "c_mainCTA",
+      "c_cTAFull",
       "c_tagline",
       "name",
-      "c_featuredProducts",
-      "c_relatedFAQs",
+      "c_featuredProducts.name",
+      "c_featuredProducts.logo",
+      "c_featuredProducts.c_subtitle",
+      "c_relatedFAQs.question",
+      "c_relatedFAQs.answer",
       "slug",
     ],
   },
@@ -32,29 +35,12 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
 };
 
 export default function Product({ document }: TemplateProps) {
-  const {
-    c_featuredProducts,
-    logo,
-    c_tagline,
-    name,
-    c_mainCTA,
-    c_relatedFAQs,
-    c_secondaryCTA,
-  } = document;
   return (
     <PageLayout backgroundColor="#fcfcfc">
       <CenteredContainer>
         <Header backgroundColor="#000000" logo={`${document.logo.image.url}`} />
         <CTASectionCentered
-          cta2Color={``}
-          backgroundColor={``}
-          cta2Label={`${document.c_secondaryCTA}`}
-          cta1Color={`black`}
-          {/* cta1Label={`${document.c_mainCTA}`} */ }
-          paragraph={`${document.c_tagline}`}
-          heading={`${document.name}`}
         />
-        <GridBlock content={``} backgroundColor={`bg-transparent`}></GridBlock>
         <ItemList
           title={`Featured Products`}
           backgroundColor={``}

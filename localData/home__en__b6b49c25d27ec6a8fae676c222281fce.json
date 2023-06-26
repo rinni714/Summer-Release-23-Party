@@ -1,0 +1,33 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "home",
+		"streamId": "home",
+		"templateType": "JS"
+	},
+	"businessId": 3217942,
+	"c_cTAFull": {
+		"cTALabel": "RSVP",
+		"cTALink": "#"
+	},
+	"c_mainCTA": "RSVP",
+	"c_tagline": "Celebrate the Amazing 2023 Release",
+	"id": "6614099611381237163",
+	"key": "0:home:knowledgeGraph:42083301:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "ce_page",
+			"uid": 119079
+		},
+		"locale": "en"
+	},
+	"name": "Release",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "release-summer-2023",
+	"uid": 42083301
+}

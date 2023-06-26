@@ -10,6 +10,7 @@ export const initialProps: ItemProps = {
   name: "Product Name",
   price: 0,
   subtitle: "Product Subtitle",
+  image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg'
 };
 
 const Item = ({ name, image, price, subtitle }: ItemProps) => {
