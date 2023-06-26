@@ -1,0 +1,13 @@
+{
+  "$id": "8005557457850656291",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answer": "Yes, indeed!",
+    "name": "Will my Yext Pages be performant?",
+    "question": "Will my Yext Pages be performant?"
+  },
+  "entityType": "faq",
+  "folder": "yext/root",
+  "labels": []
+}

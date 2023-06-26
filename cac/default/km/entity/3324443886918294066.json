@@ -1,0 +1,32 @@
+{
+  "$id": "3324443886918294066",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_subtitle": "Third-Party Publishing with the World Leader in Business Listings",
+    "logo": {
+      "image": {
+        "height": 100,
+        "sourceUrl": "https://a.mktgcdn.com/p/fRMpaTGuYApqVhZoxMiNGDGt0PRYiU-r03RMn_0aQs0/100x100.png",
+        "thumbnails": [
+          {
+            "height": 100,
+            "url": "https://a.mktgcdn.com/p-sandbox/WoAqnRBVRH9Yi1Q-fHBz5lAGWzGzAOi9r4HiC-NINhE/100x100.png",
+            "width": 100
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p-sandbox/WoAqnRBVRH9Yi1Q-fHBz5lAGWzGzAOi9r4HiC-NINhE/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/WoAqnRBVRH9Yi1Q-fHBz5lAGWzGzAOi9r4HiC-NINhE/100x100.png",
+        "width": 100
+      }
+    },
+    "name": "Listings"
+  },
+  "entityType": "ce_product",
+  "folder": "yext/root",
+  "labels": []
+}

@@ -1,0 +1,8 @@
+{
+  "$id": "c_cTAFull",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "CTA Full",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_fullCTA"
+}

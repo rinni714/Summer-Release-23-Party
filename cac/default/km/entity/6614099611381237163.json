@@ -1,0 +1,18 @@
+{
+  "$id": "6614099611381237163",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_cTAFull": {
+      "cTALabel": "RSVP",
+      "cTALink": "#"
+    },
+    "c_mainCTA": "RSVP",
+    "c_tagline": "Celebrate the Amazing 2023 Release",
+    "name": "Release",
+    "slug": "release-summer-2023"
+  },
+  "entityType": "ce_page",
+  "folder": "yext/root",
+  "labels": []
+}

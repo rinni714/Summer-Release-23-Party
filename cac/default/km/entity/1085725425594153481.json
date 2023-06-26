@@ -1,0 +1,37 @@
+{
+  "$id": "1085725425594153481",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_subtitle": "Large Language Models with Yext Content \u003d Informed and Happy Users",
+    "logo": {
+      "image": {
+        "height": 179,
+        "sourceUrl": "https://a.mktgcdn.com/p/6uS02u9isgjK1p12wCZ9Ldsjwweld4X-eo_iG-nzay0/179x164.png",
+        "thumbnails": [
+          {
+            "height": 179,
+            "url": "https://a.mktgcdn.com/p-sandbox/FBeL2ZsD2vY6-zuRVBsH7K-BGS9EqRnKFbYROoywZ9k/179x179.png",
+            "width": 179
+          },
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p-sandbox/FBeL2ZsD2vY6-zuRVBsH7K-BGS9EqRnKFbYROoywZ9k/150x150.png",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p-sandbox/FBeL2ZsD2vY6-zuRVBsH7K-BGS9EqRnKFbYROoywZ9k/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/FBeL2ZsD2vY6-zuRVBsH7K-BGS9EqRnKFbYROoywZ9k/179x179.png",
+        "width": 179
+      }
+    },
+    "name": "Chat"
+  },
+  "entityType": "ce_product",
+  "folder": "yext/root",
+  "labels": []
+}

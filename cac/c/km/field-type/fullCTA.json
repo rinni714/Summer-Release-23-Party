@@ -1,0 +1,35 @@
+{
+  "$id": "c_fullCTA",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "displayName": "Full CTA",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "cTALabel",
+          "displayName": "CTA Label",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        },
+        {
+          "name": "cTALink",
+          "displayName": "CTA Link",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE",
+              "maxLength": 100000
+            }
+          }
+        }
+      ]
+    }
+  }
+}

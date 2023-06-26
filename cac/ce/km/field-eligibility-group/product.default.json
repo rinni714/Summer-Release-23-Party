@@ -1,0 +1,15 @@
+{
+  "$id": "ce_product.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Product-default",
+  "entityType": "ce_product",
+  "fields": [
+    "c_price",
+    "c_subtitle",
+    "description",
+    "logo",
+    "photoGallery",
+    "slug"
+  ],
+  "required": []
+}

@@ -1,0 +1,33 @@
+{
+  "$id": "8269340786327853157",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_subtitle": "SEO Optimized Websites built on Yext Content",
+    "description": "Build blazing fast websites with on the Yext Platform",
+    "logo": {
+      "image": {
+        "height": 100,
+        "sourceUrl": "https://a.mktgcdn.com/p/oDWUmHKDb6fLTy_U9VEgPcJqpsVnHLU58CoFLe_Q2c4/100x100.png",
+        "thumbnails": [
+          {
+            "height": 100,
+            "url": "https://a.mktgcdn.com/p-sandbox/cwjfIMKOKdMlT_pTfu3ru4d5LFSW-LyI7iUOkHoJEQI/100x100.png",
+            "width": 100
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p-sandbox/cwjfIMKOKdMlT_pTfu3ru4d5LFSW-LyI7iUOkHoJEQI/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/cwjfIMKOKdMlT_pTfu3ru4d5LFSW-LyI7iUOkHoJEQI/100x100.png",
+        "width": 100
+      }
+    },
+    "name": "Pages"
+  },
+  "entityType": "ce_product",
+  "folder": "yext/root",
+  "labels": []
+}

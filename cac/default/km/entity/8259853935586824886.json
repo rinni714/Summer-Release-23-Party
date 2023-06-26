@@ -1,0 +1,33 @@
+{
+  "$id": "8259853935586824886",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_subtitle": "AI-First Search Experiences for Enterprise",
+    "description": "Next generation search experiences for your business",
+    "logo": {
+      "image": {
+        "height": 100,
+        "sourceUrl": "https://a.mktgcdn.com/p/NIYI87ekz4Cm2z6dOVGS_2cjRYPwkZCcFvLQ03sBkbI/100x100.png",
+        "thumbnails": [
+          {
+            "height": 100,
+            "url": "https://a.mktgcdn.com/p-sandbox/3bRINBdbZ2qyHV56y_4bCWm8eD-kKUdK-i9IXaK4Ji8/100x100.png",
+            "width": 100
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p-sandbox/3bRINBdbZ2qyHV56y_4bCWm8eD-kKUdK-i9IXaK4Ji8/94x94.png",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p-sandbox/3bRINBdbZ2qyHV56y_4bCWm8eD-kKUdK-i9IXaK4Ji8/100x100.png",
+        "width": 100
+      }
+    },
+    "name": "Search"
+  },
+  "entityType": "ce_product",
+  "folder": "yext/root",
+  "labels": []
+}

@@ -1,0 +1,23 @@
+{
+  "$id": "humbly-lazy-javelin-a855c",
+  "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+  "siteName": "QA Version 0.13.0",
+  "repoConfig": "tensely-private-cod-eb9d1",
+  "siteSettings": {
+    "autoDeploy": true,
+    "autoStage": true,
+    "autoPublish": false,
+    "pullRequestsEnabled": false,
+    "stagingCredentials": {
+      "password": "",
+      "username": ""
+    }
+  },
+  "branches": [
+    {
+      "name": "main",
+      "envVars": [],
+      "isProductionBranch": true
+    }
+  ]
+}

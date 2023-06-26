@@ -1,0 +1,13 @@
+{
+  "$id": "4555182415706786170",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answer": "Why Yext, of course!",
+    "name": "Who should build your digital experiences?",
+    "question": "Who should build your digital experiences?"
+  },
+  "entityType": "faq",
+  "folder": "yext/root",
+  "labels": []
+}

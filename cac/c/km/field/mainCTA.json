@@ -1,0 +1,14 @@
+{
+  "$id": "c_mainCTA",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Main CTA",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}
