@@ -1,4 +1,5 @@
 import { GetPath, TemplateConfig, TemplateProps } from "@yext/pages";
+import Banner from "../components/Banner";
 import BigButton from "../components/BigButton";
 import CTASectionCentered from "../components/CTASectionCentered";
 import PageLayout from "../components/PageLayout";
@@ -22,6 +23,16 @@ export default function ReleaseParty() {
     <>
       <BigButton title="Button Title" href="#" />
       <PageLayout backgroundColor="#FFFFFF">
+        <Banner
+          address={{
+            countryCode: ``,
+            postalCode: ``,
+            region: ``,
+            city: ``,
+            line1: ``,
+          }}
+          name={``}
+        />
         <CTASectionCentered
           BackgroundColor="bg-white"
           heading="Heading"
