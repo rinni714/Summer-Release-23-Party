@@ -1,4 +1,5 @@
 import { GetPath, TemplateConfig, TemplateProps } from "@yext/pages";
+import BigButton from "../components/BigButton";
 import CTASectionCentered from "../components/CTASectionCentered";
 import PageLayout from "../components/PageLayout";
 
@@ -10,25 +11,34 @@ export const config: TemplateConfig = {
     fields: ["slug"],
   },
 };
-export const getPath: GetPath<TemplateProps> = ({ document }) => {
+export const getPath: GetPath<TemplateProps> = ({
+  document,
+}: TemplateProps) => {
   return `${document.slug}`;
 };
 
 export default function ReleaseParty() {
   return (
-    <PageLayout backgroundColor="#FFFFFF">
-      <CTASectionCentered
-        BackgroundColor="bg-white"
-        heading="Heading"
-        paragraph="Tagline"
-        MainCTA={{ label: "Main CTA", link: "#", backgroundColor: "bg-black" }}
-        showSecondaryCTA={false}
-        SecondaryCTA={{
-          label: "Secondary CTA",
-          link: "#",
-          backgroundColor: "bg-black",
-        }}
-      />
-    </PageLayout>
+    <>
+      <BigButton title="Button Title" href="#" />
+      <PageLayout backgroundColor="#FFFFFF">
+        <CTASectionCentered
+          BackgroundColor="bg-white"
+          heading="Heading"
+          paragraph="Tagline"
+          MainCTA={{
+            label: "Main CTA",
+            link: "#",
+            backgroundColor: "bg-black",
+          }}
+          showSecondaryCTA={false}
+          SecondaryCTA={{
+            label: "Secondary CTA",
+            link: "#",
+            backgroundColor: "bg-black",
+          }}
+        />
+      </PageLayout>
+    </>
   );
 }

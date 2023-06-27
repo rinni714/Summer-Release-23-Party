@@ -7,6 +7,21 @@
       "entityPageSet": {
         "plugin": {}
       }
+    },
+    {
+      "name": "ReleaseParty",
+      "streamId": "studio-stream-id",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "ReleasePartyStatic",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
     }
   ],
   "streams": [
@@ -25,16 +40,27 @@
       },
       "fields": [
         "logo",
-        "c_secondaryCTA",
-        "c_mainCTA",
-        "c_cTAFull",
         "c_tagline",
         "name",
-        "c_featuredProducts.name",
-        "c_featuredProducts.logo",
-        "c_featuredProducts.c_subtitle",
-        "c_relatedFAQs.question",
-        "c_relatedFAQs.answer",
+        "c_featuredProducts",
+        "c_relatedFAQs",
+        "slug"
+      ]
+    },
+    {
+      "$id": "studio-stream-id",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityIds": [
+          "8832319557229008364"
+        ]
+      },
+      "fields": [
         "slug"
       ]
     }
